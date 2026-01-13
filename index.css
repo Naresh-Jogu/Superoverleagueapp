@@ -1,0 +1,61 @@
+/* Write your code here. */
+#bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  text-align: center;
+}
+
+.image-size {
+  height: auto;
+  width: 300px;
+}
+
+/* Extra small devices (phones, ≤ 576px) */
+@media (max-width: 576px) {
+  .image-size {
+    width: 80px;
+  }
+  .heading {
+    font-size: 16px;
+  }
+}
+
+/* Small devices (larger phones / small tablets, ≤ 768px) */
+@media (max-width: 768px) {
+  .image-size {
+    width: 120px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (768px – 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .image-size {
+    width: 200px;
+  }
+  .heading {
+    font-size: 22px;
+  }
+}
+
+/* Medium devices (768px – 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .image-size {
+    width: 300px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}
